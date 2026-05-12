@@ -35,7 +35,6 @@ This policy explains how the App handles information. The App has no backend, no
 - **`INTERNET`** — required to fetch earthquake data from USGS.
 - **`ACCESS_NETWORK_STATE`** — required to detect connectivity.
 - **`ACCESS_COARSE_LOCATION`** (optional, runtime) — used **on-device only** to compute distance from your saved home location and to apply the radius filter. Never transmitted to us or to third parties.
-- **`ACCESS_FINE_LOCATION`** (optional, runtime upgrade) — same purpose as coarse, higher precision when granted. Same on-device-only usage.
 - **`POST_NOTIFICATIONS`** (Android 13+, runtime) — used to deliver **local** notifications. No remote push notifications.
 - **`RECEIVE_BOOT_COMPLETED`** — to re-schedule periodic refresh after device reboot. No data is sent.
 
