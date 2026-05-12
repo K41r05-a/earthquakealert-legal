@@ -1,0 +1,8 @@
+title: Earthquake Alert — Legal
+description: Public legal documents for the Earthquake Alert app.
+theme: null
+plugins: []
+permalink: /:path/
+exclude:
+  - README.md
+  - .github
